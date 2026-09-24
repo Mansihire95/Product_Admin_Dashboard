@@ -1,0 +1,38 @@
+.not-found-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-color);
+  padding: 2rem;
+}
+
+.nf-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nf-code {
+  font-size: 6rem;
+  font-weight: 900;
+  color: var(--primary-color);
+  opacity: 0.2;
+  line-height: 1;
+}
+
+.nf-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin: 0;
+}
+
+.nf-desc {
+  color: var(--text-muted);
+  font-size: 1rem;
+  margin: 0;
+  max-width: 380px;
+}
