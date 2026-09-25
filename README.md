@@ -15,7 +15,7 @@ A production-quality React admin dashboard for managing products using the [Dumm
 
 ## Features
 
-- ✅ JWT login with token stored in localStorage
+-
 - ✅ Protected routes — redirect to `/login` if not authenticated
 - ✅ Logout with auth cleanup
 - ✅ Product list with table (desktop) and cards (mobile)
